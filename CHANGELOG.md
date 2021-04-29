@@ -4,6 +4,25 @@ All notable changes to the "Azure Terraform" extension will be documented in thi
 		
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.3.2]
+### Fixed
+- fix dependency issues
+  - [#212](https://github.com/Azure/vscode-azureterraform/issues/212)
+  - [#222](https://github.com/Azure/vscode-azureterraform/issues/222)
+
+## [0.3.1]
+### Fixed
+- fix some security issues
+  - [#220](https://github.com/Azure/vscode-azureterraform/pull/220)
+
+## [0.3.0]
+### Fixed
+- fix some bugs and improve user experience
+  - [#139](https://github.com/Azure/vscode-azureterraform/issues/139)
+  - [#179](https://github.com/Azure/vscode-azureterraform/issues/179)
+  - [#181](https://github.com/Azure/vscode-azureterraform/issues/181)
+  - [#203](https://github.com/Azure/vscode-azureterraform/issues/203)
+
 ## [0.2.0]
 ### Added
 - Support linting and end to end test for terraform module. ([#166](https://github.com/Azure/vscode-azureterraform/issues/166))
@@ -22,4 +41,3 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Added
 - Support Terraform commands: init, plan, apply, validate, refresh and destroy.
 - Support visualizing the terraform module.
-
